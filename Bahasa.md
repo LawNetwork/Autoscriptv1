@@ -29,9 +29,7 @@ Jika ada update mendatang, akan saya perbarui lewat kode di bawah:
 ```
 wget raw.githubusercontent.com/LawNetwork/Autoscript/update.sh; chmod +x update.sh; ./update.sh
 ```
+Dm saya di Telegram [klik disini](https://t.me/Law_sky) jika mendapati error saat meningstal Autoscript atau terdapat bug pada Autoscript yang sudah terinstall di server kamu.
 
-
-
-Dm saya di [Telegram](https://t.me/Law_sky) jika mendapati error saat meningstal Autoscript atau terdapat bug pada Autoscript yang sudah terinstall di server kamu.
 
 Thanks for using our Script!
