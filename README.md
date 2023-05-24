@@ -21,10 +21,12 @@ rm -f /root/Autoscript
 ```
 
 ## Update
-This script still is in beta, all updates will be shown here:
-### Script version: 0.1 Beta
+This script still is in beta, all updates will be shown below
+#### Script version: 0.1 Beta
 ```
 wget raw.githubusercontent.com/LawNetwork/Autoscript/update.sh; chmod +x update.sh; ./update.sh
 ```
+
+
 
 Dm me on t.me/Law_sky if you are still facing any errors
