@@ -18,7 +18,7 @@ cd; git clone https://github.com/LawNetwork/Autoscript.git; chmod +x /root/Autos
 ## Setelah Install Autoscript
 Hapus semua file Installer yang ada di vpsmu(tidak wajib):
 ```
-rm -f /root/Autoscript
+rm -r /root/Autoscript
 ```
 
 ## Update
