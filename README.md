@@ -18,12 +18,12 @@ cd; git clone https://github.com/LawNetwork/Autoscript.git; chmod +x /root/Autos
 ## After-Install
 Deleting all installer files:
 ```
-rm -f /root/Autoscript
+rm -r /root/Autoscript
 ```
 
 ## Update
 This script still is in beta, all updates will be shown below
-#### Script version: 0.1 Beta
+#### Script version: 0.1 Beta May 2023
 ```
 wget raw.githubusercontent.com/LawNetwork/Autoscript/update.sh; chmod +x update.sh; ./update.sh
 ```
