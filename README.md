@@ -2,7 +2,8 @@
 
 ## Pre-Install
 Before you installing this Autoscript, make sure you have atleast 1 vps with Debian 10 OS Installed. A vps panel better to install-reinstalling the vps if you are facing errors in future.
-Paste this code before the installing the Installer (Make sure you log into your vps using root):
+
+Paste this code before installing the Installer (Make sure you log into your vps using root):
 ```
 apt update; apt install -y git curl; apt upgrade -y; update-grub; reboot
 ```
