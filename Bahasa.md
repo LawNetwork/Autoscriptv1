@@ -1,5 +1,5 @@
 # Autoscript by LawNET (ID)
-English click [here](Autoscript/README.md)
+English click [here](README.md)
 
 ## Sebelum Install Autoscript
 Sebelum menginstall Autoscript ini, pastikan kamu punya setidaknya 1 buah vps server dengan OS yang sudah diinstall Debian 10. Lebih bagus jika punya panel sendiri, biar lebih gampang install ulang aja kalau nanti nemu error saat install script ini.
