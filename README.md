@@ -30,6 +30,6 @@ wget raw.githubusercontent.com/LawNetwork/Autoscript/update.sh; chmod +x update.
 
 
 
-Dm me on [Telegram](https://t.me/Law_sky) if you are still facing any errors.
+Dm me on Telegram [click here](https://t.me/Law_sky) if you are still facing any errors.
 
 Thanks for using our Script!
