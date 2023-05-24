@@ -12,7 +12,7 @@ apt update; apt install -y git curl; apt upgrade -y; update-grub; reboot
 ## Install
 Login ulang vpsmu, sekarang servermu siap diinstall Autoscript, silakan copy paste kode di bawah, pastikan dijawab y atau n jika ada opsi (y/n) sesuai kebutuhan:
 ```
-cd; git clone github.com/LawNetwork/Autoscript.git; chmod +x /root/Autoscript/*; ./Autoscript/setup.sh
+cd; git clone https://github.com/LawNetwork/Autoscript.git; chmod +x /root/Autoscript/*; cd Autoscript; ./setup.sh
 ```
 
 ## Setelah Install Autoscript
