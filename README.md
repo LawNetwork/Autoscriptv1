@@ -1,4 +1,5 @@
 # Autoscript by LawNET (ENG)
+Bahasa Indonesia klik .[disini](Autoscript/Bahasa)
 
 ## Pre-Install
 Before you installing this Autoscript, make sure you have atleast 1 vps with Debian 10 OS Installed. A vps panel better to install-reinstalling the vps if you are facing errors in future.
