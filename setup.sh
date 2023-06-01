@@ -79,7 +79,7 @@ chmod 644 /root/.profile
 cd ~/Autoscript; chmod +x *
 chmod -R +x /root/Autoscript
 
-cd ~/Autoscript/addons; ./Animation.sh
+cd /root/Autoscript/addons; ./Animation.sh
 
 cd
 mkdir -p /etc/Lawnet
