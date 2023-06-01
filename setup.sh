@@ -76,7 +76,7 @@ END
 chmod 644 /root/.profile
 
 # Preparing all set up
-cd ~/Autoscript; chmod +x *
+cd /root/Autoscript; chmod +x *
 chmod -R +x /root/Autoscript
 
 cd /root/Autoscript/addons; ./Animation.sh
@@ -116,7 +116,7 @@ elif [ -f "/usr/local/etc/xray/config.json" ]; then
 fi
 
 # Installing dependencies
-cd ~/Autoscript/addons; ./dependencies.sh
+cd /root/Autoscript/addons; ./dependencies.sh
 
 # Adding a domain
 clear
@@ -130,7 +130,7 @@ echo "$domain" > /etc/xray/scdomain
 echo "IP=$domain" > /var/lib/Lawnet-pro/ipvps.conf
 
 # Adding themes
-cd ~/Autoscript/addons; ./theme.sh
+cd /root/Autoscript/addons; ./theme.sh
 
 ===================================================
 
@@ -142,7 +142,7 @@ echo -e "${blue}
 ===================================================
 |             PROCESS INSTALLING SSH              |
 ==================================================="
-sleep 3; cd ~/Autoscript/ssh; ./ssh.sh
+sleep 3; cd /root/Autoscript/ssh; ./ssh.sh
 clear
 
 #XRAY
@@ -150,7 +150,7 @@ echo -e "${blue}
 ===================================================
 |             PROCESS INSTALLING XRAY             |
 ==================================================="
-sleep 3; cd ~/Autoscript/xray; ./xray.sh
+sleep 3; cd /root/Autoscript/xray; ./xray.sh
 clear
 
 #Websocket
@@ -158,7 +158,7 @@ echo -e "${blue}
 ===================================================
 |           PROCESS INSTALLING WEBSOCKET          |
 ==================================================="
-sleep 3; cd ~/Autoscript/ssh; ./ws.sh
+sleep 3; cd /root/Autoscript/ssh; ./ws.sh
 clear
 
 #OHP
@@ -166,7 +166,7 @@ echo -e "${blue}
 ===================================================
 |              PROCESS INSTALLING OHP             |
 ==================================================="
-#sleep 3; cd ~/Autoscript/ssh; ./ohp.sh
+#sleep 3; cd /root/Autoscript/ssh; ./ohp.sh
 yellow "[ BECAUSE OF I DISABLED THE OVPN, SO WE CAN SKIP THIS STEP ]"
 yellow "[ DM ME ON TELEGRAM IF YOU WANT TO INSTALL OPENVPN ]"; sleep 3
 clear
@@ -176,14 +176,14 @@ echo -e "${blue}
 ===================================================
 |          PROCESS INSTALLING AUTOBACKUP          |
 ==================================================="
-sleep 3; cd ~/Autoscript/addons; ./set-br
+sleep 3; cd /root/Autoscript/addons; ./set-br
 
 #Menu
 echo -e "${blue}
 ===================================================
 |             PROCESS INSTALLING MENU             |
 ==================================================="
-sleep 3; cd ~/Autoscript/menu; ./menu.sh
+sleep 3; cd /root/Autoscript/menu; ./menu.sh
 
 mv /root/Autoscript/update.sh /usr/bin/update
 
